@@ -13,7 +13,7 @@ const LoginScreen = () => {
   };
 
   return (
-    <View style={tw`flex-1 justify-center items-center bg-gray-900`}>
+    <View style={tw`flex-1 justify-center items-center bg-[#1C1C1C]`}>
       <Text style={tw`text-white text-3xl mb-8`}>Login</Text>
       <TextInput
         style={tw`w-80 h-12 border border-gray-300 rounded mb-4 p-2`}

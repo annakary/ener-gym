@@ -6,7 +6,7 @@ const LayoutDashScreen = () => {
   
 
   return (
-    <View style={tw`flex-1 justify-center items-center bg-gray-900`}>
+    <View style={tw`flex-1 justify-center items-center bg-[#1C1C1C]`}>
       
     </View>
   );

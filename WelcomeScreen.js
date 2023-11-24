@@ -13,16 +13,16 @@ const WelcomeScreen = () => {
   };
 
   return (
-    <View style={tw`flex-1 justify-center items-center bg-gray-900 relative`}>
+    <View style={tw`flex-1 justify-center items-center bg-[#1C1C1C] relative`}>
      <Image style={tw`bottom-20`} source={require('./assets/logo-gym.png')} />
      <Image style={tw`bottom-20 absolute left-6 h-screen top-3`} source={require('./assets/line-gym.png')} />
      <Image style={tw`bottom-20 absolute right-6 h-screen top-3`} source={require('./assets/line-gym.png')} />
 
       <TouchableOpacity style={tw`bg-emerald-900 p-4 rounded-lg w-75`} onPress={handleLogin}>
-        <Text style={tw`text-white text-center text-lg `}>Sign Up</Text>
+        <Text style={tw`text-white text-center text-lg font-extrabold`}>Sign Up</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={tw`bg-emerald-900 p-4 rounded-lg w-75 mt-5`} onPress={handleLogin}>
-        <Text style={tw`text-white text-center text-lg `}>Login</Text>
+      <TouchableOpacity style={tw`bg-[#F1CCBA] p-4 rounded-lg w-75 mt-5`} onPress={handleLogin}>
+        <Text style={tw`text-white text-center text-lg font-extrabold `}>Login</Text>
       </TouchableOpacity>
     </View>
   );
