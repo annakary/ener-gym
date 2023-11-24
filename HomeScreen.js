@@ -7,7 +7,7 @@ const HomeScreen = () => {
 
   return (
     <View style={tw`flex-1 justify-center items-center bg-gray-900`}>
-      
+        <Text style={tw`text-white text-center text-5xl font-extrabold bottom-80`}>65 days</Text>
     </View>
   );
 };
