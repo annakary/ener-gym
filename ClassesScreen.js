@@ -1,5 +1,5 @@
-import React from 'react';
-import { View, Text, ScrollView, Image, TouchableOpacity } from 'react-native';
+import React, { useState } from 'react';
+import { View, Text, TextInput, ScrollView, Image, TouchableOpacity } from 'react-native';
 import tw from 'twrnc';
 import { useNavigation } from '@react-navigation/native';
 
