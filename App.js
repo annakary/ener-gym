@@ -1,24 +1,28 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import LoginScreen from './LoginScreen'; 
-import WelcomeScreen from './WelcomeScreen'
-import HomeScreen from './HomeScreen';
-import tw from 'twrnc';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 
-export default function App() {
+
+import LoginScreen from './LoginScreen';
+import HomeScreen from './HomeScreen';
+import ClassesScreen from './ClassesScreen';
+import InfoClassesScreen from './InfoClassesScreen';
+import SubscriptionScreen from './SubscriptionScreen';
+
+const Stack = createStackNavigator();
+
+function App() {
   return (
-    <View style={StyleSheet.compose(tw`flex-1 justify-center`, styles.container)}>
-      <LoginScreen />
-      {/* <WelcomeScreen/> */}
-      {/* <HomeScreen/> */}
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="LoginScreen">
+        <Stack.Screen name="LoginScreen" component={LoginScreen} />
+        <Stack.Screen name="HomeScreen" component={HomeScreen} />
+        <Stack.Screen name="ClassesScreen" component={ClassesScreen} />
+        <Stack.Screen name="InfoClassesScreen" component={InfoClassesScreen} />
+        <Stack.Screen name="SubscriptionScreen" component={SubscriptionScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
-
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: '#1C1C1C',
-
-  },
-});
+export default App;
