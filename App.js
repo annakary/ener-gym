@@ -8,8 +8,8 @@ import tw from 'twrnc';
 export default function App() {
   return (
     <View style={StyleSheet.compose(tw`flex-1 justify-center`, styles.container)}>
-      {/* <LoginScreen /> */}
-      <WelcomeScreen/>
+      <LoginScreen />
+      {/* <WelcomeScreen/> */}
       {/* <HomeScreen/> */}
     </View>
   );
