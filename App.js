@@ -4,6 +4,7 @@ import LoginScreen from './LoginScreen';
 import WelcomeScreen from './WelcomeScreen'
 import HomeScreen from './HomeScreen';
 import UserScreen from './UserScreen';
+import LayoutDashScreen from './LayoutDashScreen'
 import tw from 'twrnc';
 
 export default function App() {
@@ -12,7 +13,8 @@ export default function App() {
       {/* <LoginScreen /> */}
       {/* <WelcomeScreen/> */}
       {/* <HomeScreen/> */}
-<UserScreen/>
+      {/* <UserScreen/> */}
+      < LayoutDashScreen/>
     </View>
   );
 }
