@@ -35,7 +35,7 @@ const ClassesScreen = () => {
                 <TouchableOpacity onPress={navigateToInfoClasses} style={tw`justify-center items-center mt-6`}>
                     <View style={tw`overflow-hidden rounded-xl`}>
                         <Image
-                            source={require('./assets/icon.png')}
+                            source={require('./assets/Zumba.png')}
                             style={tw`w-80 h-40 rounded-xl`}
                         />
                     </View>
@@ -48,7 +48,7 @@ const ClassesScreen = () => {
                 <View style={tw`justify-center items-center mt-6`}>
                     <TouchableOpacity style={tw`overflow-hidden rounded-xl`}>
                         <Image
-                            source={require('./assets/icon.png')}
+                            source={require('./assets/Yoga.png')}
                             style={tw`w-80 h-40 rounded-xl`}
                         />
                     </TouchableOpacity>
@@ -61,7 +61,7 @@ const ClassesScreen = () => {
                 <View style={tw`justify-center items-center mt-6`}>
                     <TouchableOpacity style={tw`overflow-hidden rounded-xl`}>
                         <Image
-                            source={require('./assets/icon.png')}
+                            source={require('./assets/Spinning.png')}
                             style={tw`w-80 h-40 rounded-xl`}
                         />
                     </TouchableOpacity>
@@ -74,7 +74,7 @@ const ClassesScreen = () => {
                 <View style={tw`justify-center items-center mt-6`}>
                     <TouchableOpacity style={tw`overflow-hidden rounded-xl`}>
                         <Image
-                            source={require('./assets/icon.png')}
+                            source={require('./assets/Boxeo.png')}
                             style={tw`w-80 h-40 rounded-xl`}
                         />
                     </TouchableOpacity>
@@ -87,7 +87,7 @@ const ClassesScreen = () => {
                 <View style={tw`justify-center items-center mt-6`}>
                     <TouchableOpacity style={tw`overflow-hidden rounded-xl`}>
                         <Image
-                            source={require('./assets/icon.png')}
+                            source={require('./assets/Baile.png')}
                             style={tw`w-80 h-40 rounded-xl`}
                         />
                     </TouchableOpacity>

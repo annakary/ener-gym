@@ -58,7 +58,7 @@ const HomeScreen = () => {
         <View style={tw`justify-center items-center mt-6`}>
           <View style={tw`overflow-hidden rounded-xl`}>
             <Image
-              source={require('./assets/icon.png')}
+              source={require('./assets/Hombros.png')}
               style={tw`w-80 h-40 rounded-xl`}
             />
           </View>
@@ -71,7 +71,7 @@ const HomeScreen = () => {
         <View style={tw`justify-center items-center mt-6`}>
           <View style={tw`overflow-hidden rounded-xl`}>
             <Image
-              source={require('./assets/icon.png')}
+              source={require('./assets/Espalda.png')}
               style={tw`w-80 h-40 rounded-xl`}
             />
           </View>
@@ -84,7 +84,7 @@ const HomeScreen = () => {
         <View style={tw`justify-center items-center mt-6`}>
           <View style={tw`overflow-hidden rounded-xl`}>
             <Image
-              source={require('./assets/icon.png')}
+              source={require('./assets/Biceps.png')}
               style={tw`w-80 h-40 rounded-xl`}
             />
           </View>
@@ -97,7 +97,7 @@ const HomeScreen = () => {
         <View style={tw`justify-center items-center mt-6`}>
           <View style={tw`overflow-hidden rounded-xl`}>
             <Image
-              source={require('./assets/icon.png')}
+              source={require('./assets/Pecho.png')}
               style={tw`w-80 h-40 rounded-xl`}
             />
           </View>
@@ -110,7 +110,7 @@ const HomeScreen = () => {
         <View style={tw`justify-center items-center mt-6`}>
           <View style={tw`overflow-hidden rounded-xl`}>
             <Image
-              source={require('./assets/icon.png')}
+              source={require('./assets/Pierna.png')}
               style={tw`w-80 h-40 rounded-xl`}
             />
           </View>

@@ -24,7 +24,7 @@ const SubscriptionScreen = () => {
         <View style={tw`justify-center items-center mt-2`}>
           <View style={tw`overflow-hidden rounded-xl`}>
             <Image
-              source={require('./assets/icon.png')}
+              source={require('./assets/Silver.png')}
               style={tw`w-80 h-40 rounded-xl`}
             />
           </View>
@@ -43,7 +43,7 @@ const SubscriptionScreen = () => {
         <View style={tw`justify-center items-center mt-6`}>
           <View style={tw`overflow-hidden rounded-xl`}>
             <Image
-              source={require('./assets/icon.png')}
+              source={require('./assets/Nova.png')}
               style={tw`w-80 h-40 rounded-xl`}
             />
           </View>
@@ -56,7 +56,7 @@ const SubscriptionScreen = () => {
         <View style={tw`justify-center items-center mt-6`}>
           <View style={tw`overflow-hidden rounded-xl`}>
             <Image
-              source={require('./assets/icon.png')}
+              source={require('./assets/Global.png')}
               style={tw`w-80 h-40 rounded-xl`}
             />
           </View>

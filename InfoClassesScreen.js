@@ -15,7 +15,7 @@ const InfoClassesScreen = () => {
 
           <View style={{ width: 425, height: 300 }}>
             <Image
-              source={require('./assets/icon.png')}
+              source={require('./assets/Zumba.png')}
               style={{ width: '100%', height: '100%' }}
             />
           </View>
